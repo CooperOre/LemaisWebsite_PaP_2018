@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.0.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: 02-Jul-2018 às 15:05
+- Versão do servidor: 10.1.32-MariaDB
+- PHP Version: 7.2.5
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="lemais" collation="utf8_unicode_ci" charset="utf8">
+            <pma:table name="admins">
+                CREATE TABLE `admins` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nome` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+                  `password` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+            </pma:table>
+            <pma:table name="livros_venda">
+                CREATE TABLE `livros_venda` (
+                  `id_venda` int(11) NOT NULL AUTO_INCREMENT,
+                  `isbn` varchar(200) NOT NULL,
+                  `titulo` varchar(200) NOT NULL,
+                  `autor` varchar(200) NOT NULL,
+                  `edicao` varchar(200) NOT NULL,
+                  `editora` varchar(200) NOT NULL,
+                  `data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                  `estado` varchar(250) NOT NULL DEFAULT 'A ser entregue ...',
+                  PRIMARY KEY (`id_venda`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="ordens">
+                CREATE TABLE `ordens` (
+                  `id` int(15) NOT NULL AUTO_INCREMENT,
+                  `isbn` varchar(255) NOT NULL,
+                  `titulo` varchar(255) NOT NULL,
+                  `sinopse` varchar(255) NOT NULL,
+                  `preco` int(10) NOT NULL,
+                  `unidades` int(5) NOT NULL,
+                  `total` int(15) NOT NULL,
+                  `data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                  `email` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="produtos">
+                CREATE TABLE `produtos` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `isbn` varchar(60) CHARACTER SET latin1 NOT NULL,
+                  `titulo` varchar(60) CHARACTER SET latin1 NOT NULL,
+                  `autor` varchar(90) COLLATE utf8_unicode_ci NOT NULL,
+                  `edicao` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+                  `editora` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+                  `sinopse` tinytext CHARACTER SET latin1 NOT NULL,
+                  `imagem_produto` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+                  `quantidade` int(5) NOT NULL,
+                  `preco` decimal(10,2) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `product_code` (`isbn`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+            </pma:table>
+            <pma:table name="utilizadores">
+                CREATE TABLE `utilizadores` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `primeiro` varchar(255) NOT NULL,
+                  `ultimo` varchar(255) NOT NULL,
+                  `morada` varchar(255) NOT NULL,
+                  `cidade` varchar(100) DEFAULT NULL,
+                  `email` varchar(255) NOT NULL,
+                  `password` varchar(15) NOT NULL,
+                  `tipo` varchar(20) NOT NULL DEFAULT 'user',
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `email` (`email`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'lemais'
+    -->
+    <database name="lemais">
+        <!-- Tabela admins -->
+        <table name="admins">
+            <column name="id">1</column>
+            <column name="nome">paulo</column>
+            <column name="password">paulo</column>
+        </table>
+        <table name="admins">
+            <column name="id">2</column>
+            <column name="nome">joao</column>
+            <column name="password">joao</column>
+        </table>
+        <!-- Tabela livros_venda -->
+        <!-- Tabela ordens -->
+        <!-- Tabela produtos -->
+        <table name="produtos">
+            <column name="id">1</column>
+            <column name="isbn">978-3-16-148410-0</column>
+            <column name="titulo">Hidden</column>
+            <column name="autor">james Patterson</column>
+            <column name="edicao">2017</column>
+            <column name="editora">BookShoots</column>
+            <column name="sinopse">Emma, a personagem maior do livro, vive obcecada com a investigação de uma série de incêndios que, aos olhos dos restantes mortais, não passam de simples acidentes.</column>
+            <column name="imagem_produto">hidden.jpg</column>
+            <column name="quantidade">3</column>
+            <column name="preco">20.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">2</column>
+            <column name="isbn">978-85-333-0227-3</column>
+            <column name="titulo">Life after Life</column>
+            <column name="autor">Kate Atkinson</column>
+            <column name="edicao">2016</column>
+            <column name="editora">GooDreads</column>
+            <column name="sinopse">The novel has an unusual structure, repeatedly looping back in time to describe alternative possible lives for its central character, </column>
+            <column name="imagem_produto">life_after_life.jpg</column>
+            <column name="quantidade">3</column>
+            <column name="preco">22.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">3</column>
+            <column name="isbn">978-56-453-80227-2</column>
+            <column name="titulo">Trinta Mil léguas submarinas</column>
+            <column name="autor">Júlio Verne</column>
+            <column name="edicao">2002</column>
+            <column name="editora">Hemus</column>
+            <column name="sinopse"> O mistério que sempre envolveu o mar e o desafio que as profundezas marítimas exerceram em todas as épocas sobre os homens, desejosos de as conquistar, são temas eternos que alimentam a imaginação mítica de todas as gerações.</column>
+            <column name="imagem_produto">vinte_mil_leguas.jpg</column>
+            <column name="quantidade">8</column>
+            <column name="preco">21.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">6</column>
+            <column name="isbn">928-99-226-246-45</column>
+            <column name="titulo">Como a ciência funciona </column>
+            <column name="autor">Luis Soares</column>
+            <column name="edicao">1994</column>
+            <column name="editora">Globo</column>
+            <column name="sinopse">O Método Científico é tradicionalmente introduzido no primeiro capítulo dos compêndios escolares de ciência como sendo uma simples receita.
+</column>
+            <column name="imagem_produto">como_ciencia_funciona.jpg</column>
+            <column name="quantidade">5</column>
+            <column name="preco">9.99</column>
+        </table>
+        <table name="produtos">
+            <column name="id">7</column>
+            <column name="isbn">982-78-2124-101-678</column>
+            <column name="titulo">Alma celta</column>
+            <column name="autor">Eduardo Amaro e Marcelo Moreira</column>
+            <column name="edicao">2014</column>
+            <column name="editora">Leya Brasil</column>
+            <column name="sinopse">Partindo de um episódio histórico real (a invasão dos milesianos na Irlanda), Alma Celta cria uma trama de ficção profundamente embasada na mitologia céltica.</column>
+            <column name="imagem_produto">alma_celta.jpg</column>
+            <column name="quantidade">5</column>
+            <column name="preco">4.99</column>
+        </table>
+        <table name="produtos">
+            <column name="id">8</column>
+            <column name="isbn">978-853-5922-233-56</column>
+            <column name="titulo">Toda Poesia</column>
+            <column name="autor">Paulo Leminski</column>
+            <column name="edicao">2013</column>
+            <column name="editora">Companhia das letras</column>
+            <column name="sinopse">Paulo Leminski foi corajoso o bastante para se equilibrar entre duas enormes construções que rivalizavam na década de 1970, quando publicava seus primeiros versos: a poesia concreta e de feição mais erudita. </column>
+            <column name="imagem_produto">toda_poesia.jpg</column>
+            <column name="quantidade">7</column>
+            <column name="preco">8.99</column>
+        </table>
+        <table name="produtos">
+            <column name="id">9</column>
+            <column name="isbn">654-28-1-894-6521-65</column>
+            <column name="titulo">Uma aventura nas Férias de Natal</column>
+            <column name="autor">Ana Maria Magalhães</column>
+            <column name="edicao">1998</column>
+            <column name="editora">Editorial Caminho</column>
+            <column name="sinopse">A quinta onde o grupo passa férias de Natal fica no alto da Serra, num sítio muito isolado.</column>
+            <column name="imagem_produto">ferias_de_natal.jpg</column>
+            <column name="quantidade">2</column>
+            <column name="preco">7.50</column>
+        </table>
+        <table name="produtos">
+            <column name="id">10</column>
+            <column name="isbn">658-3-5874-624-87</column>
+            <column name="titulo">O universo numa casca de noz</column>
+            <column name="autor">Stephen hawking</column>
+            <column name="edicao">2002</column>
+            <column name="editora">Gradiva</column>
+            <column name="sinopse">O autor de “Uma Breve História do Tempo”, um dos nomes maiores da Física à escala planetária.</column>
+            <column name="imagem_produto">universo.jpg</column>
+            <column name="quantidade">2</column>
+            <column name="preco">39.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">11</column>
+            <column name="isbn">97-804-252-055-18</column>
+            <column name="titulo">The beginning</column>
+            <column name="autor">Catherine Coulter</column>
+            <column name="edicao">2005</column>
+            <column name="editora">Berkley Trade</column>
+            <column name="sinopse">Neste romance excitante de intriga, os leitores são apresentados aos Agentes Especiais Dillon Savich e Lacey Sherlock.</column>
+            <column name="imagem_produto">the_beginning.jpg</column>
+            <column name="quantidade">6</column>
+            <column name="preco">9.99</column>
+        </table>
+        <table name="produtos">
+            <column name="id">12</column>
+            <column name="isbn">97-89-722-520-140</column>
+            <column name="titulo">o símbolo perdido</column>
+            <column name="autor">Dan Brown</column>
+            <column name="edicao">2009</column>
+            <column name="editora">Bertrand Editora</column>
+            <column name="sinopse">Washington, D. C.: Robert Langdon, simbologista de Harvard, é convidado à última hora para dar uma palestra no Capitólio. Contudo, pouco depois da sua chegada, é descoberto no centro Rotunda um estranho objecto com cinco símbolos bizarros. 
+</column>
+            <column name="imagem_produto">simbolo_perdido.jpg</column>
+            <column name="quantidade">4</column>
+            <column name="preco">19.99</column>
+        </table>
+        <table name="produtos">
+            <column name="id">13</column>
+            <column name="isbn">982-3828-20-26</column>
+            <column name="titulo">A montanha mágica</column>
+            <column name="autor">Thomas Mann</column>
+            <column name="edicao">2016</column>
+            <column name="editora">Editora Real</column>
+            <column name="sinopse">A Montanha Mágica (no original em alemão Der Zauberberg) é um livro escrito por Thomas Mann em 1924.</column>
+            <column name="imagem_produto">a_montanha.jpg</column>
+            <column name="quantidade">1</column>
+            <column name="preco">10.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">14</column>
+            <column name="isbn">645-334-345-344</column>
+            <column name="titulo">Cem Anos de Solidão</column>
+            <column name="autor">Garcia Márquez</column>
+            <column name="edicao">1982</column>
+            <column name="editora">Editorial Sudamericana</column>
+            <column name="sinopse">Considerado um dos melhores livros de literatura latina já escritos, sua história passa-se numa aldeia fictícia e remota na América Latina chamada Macondo.</column>
+            <column name="imagem_produto">cem_anos.jpg</column>
+            <column name="quantidade">1</column>
+            <column name="preco">10.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">15</column>
+            <column name="isbn">23-246-752-781</column>
+            <column name="titulo">The Big Short</column>
+            <column name="autor">Michael Lewis</column>
+            <column name="edicao">2010</column>
+            <column name="editora">W. W. Norton &amp; Company</column>
+            <column name="sinopse">Em 2008, o guru de Wall Street Michael Burry percebe que uma série de empréstimos feitos para o mercado imobiliário está em risco de inadimplência.</column>
+            <column name="imagem_produto">big_short.jpg</column>
+            <column name="quantidade">2</column>
+            <column name="preco">14.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">16</column>
+            <column name="isbn">47-66-4867-466</column>
+            <column name="titulo">H is for Hank</column>
+            <column name="autor">Helen Macdonald</column>
+            <column name="edicao">2014</column>
+            <column name="editora">Jonathan Cape</column>
+            <column name="sinopse">H is for Hawk conta a história de Macdonald no ano em que passou a treinar um falcão na altura da morte do seu pai</column>
+            <column name="imagem_produto">h_hank.jpg</column>
+            <column name="quantidade">6</column>
+            <column name="preco">5.00</column>
+        </table>
+        <table name="produtos">
+            <column name="id">17</column>
+            <column name="isbn">687-56-567-45</column>
+            <column name="titulo">Porto Inseguro</column>
+            <column name="autor">Tana French</column>
+            <column name="edicao">2012</column>
+            <column name="editora">Rocco</column>
+            <column name="sinopse">O Livro Conta A História Do Detetive Mick Kennedy, Que Precisa de Enfrentar Os Próprios Demônios Enquanto Investiga A Morte De Três Membros De Uma Família No Mesmo Lugar Onde, Há Muitos Anos, Vivenciou Um Terrível Acontecimento Durante as suas férias </column>
+            <column name="imagem_produto">porto_inseguro.jpg</column>
+            <column name="quantidade">1</column>
+            <column name="preco">9.00</column>
+        </table>
+        <!-- Tabela utilizadores -->
+        <table name="utilizadores">
+            <column name="id">7</column>
+            <column name="primeiro">José</column>
+            <column name="ultimo">José</column>
+            <column name="morada">Rua dos noventas</column>
+            <column name="cidade">VLC</column>
+            <column name="email">dfg@sdfg.cv</column>
+            <column name="password">cvb</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">8</column>
+            <column name="primeiro">José</column>
+            <column name="ultimo">António</column>
+            <column name="morada">rua do vale</column>
+            <column name="cidade">Aveiro</column>
+            <column name="email">joseaugusto@mail.com</column>
+            <column name="password">123</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">14</column>
+            <column name="primeiro">er</column>
+            <column name="ultimo">testeMudança</column>
+            <column name="morada">Rua das Flores, Nº 197</column>
+            <column name="cidade">Arouca</column>
+            <column name="email">er@er.er</column>
+            <column name="password">qw</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">15</column>
+            <column name="primeiro">wq</column>
+            <column name="ultimo">wq</column>
+            <column name="morada">Rua do vale </column>
+            <column name="cidade">zx</column>
+            <column name="email">zx@zx</column>
+            <column name="password">zx</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">16</column>
+            <column name="primeiro">Almeida</column>
+            <column name="ultimo">Paulo</column>
+            <column name="morada">dfg</column>
+            <column name="cidade">sdfg</column>
+            <column name="email">rt@rt</column>
+            <column name="password">rt</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">17</column>
+            <column name="primeiro">qw</column>
+            <column name="ultimo">qw</column>
+            <column name="morada">qw</column>
+            <column name="cidade">qw</column>
+            <column name="email">qw@qw</column>
+            <column name="password">qw</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">20</column>
+            <column name="primeiro">José</column>
+            <column name="ultimo">qwe</column>
+            <column name="morada">qwe</column>
+            <column name="cidade">qwe</column>
+            <column name="email">rtt@er</column>
+            <column name="password">qw</column>
+            <column name="tipo">user</column>
+        </table>
+        <table name="utilizadores">
+            <column name="id">21</column>
+            <column name="primeiro">ed</column>
+            <column name="ultimo">ed</column>
+            <column name="morada">ed</column>
+            <column name="cidade">ed</column>
+            <column name="email">ed@ed</column>
+            <column name="password">ed</column>
+            <column name="tipo">user</column>
+        </table>
+    </database>
+</pma_xml_export>
