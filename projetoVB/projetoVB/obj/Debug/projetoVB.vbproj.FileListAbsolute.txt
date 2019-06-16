@@ -1,0 +1,146 @@
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojResolveAssemblyReference.cache
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojResolveAssemblyReference.cache
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.dll
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.application
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+C:\MÁRCIO_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.application
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.application
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\MySql.Data.dll
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojResolveAssemblyReference.cache
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.application
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+C:\Users\Márcio Reis\Desktop\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+D:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.application
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+D:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.application
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+E:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.application
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.application
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+F:\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.application
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojAssemblyReference.cache
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+F:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.application
+E:\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojAssemblyReference.cache
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.config
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe.manifest
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.application
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.exe
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.pdb
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\projetoVB.xml
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\bin\Debug\MySql.Data.xml
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbprojAssemblyReference.cache
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Acerca.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Doações.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.login.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.ordens.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Utilizadores.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Produtos.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Início.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.Resources.resources
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.GenerateResource.cache
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CoreCompileInputs.cache
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe.manifest
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.application
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.vbproj.CopyComplete
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.exe
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.xml
+C:\escola_mirror_pen\Outros\PAP\projetoVB\projetoVB\obj\Debug\projetoVB.pdb
